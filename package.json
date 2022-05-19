@@ -2,14 +2,15 @@
   "name": "array-methods-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "arrayMethods.js",
   "scripts": {
-    "test": "jest --watchAll --noStackTrace"
+    "test": "jest --watchAll --noStackTrace",
+    "start": "node arrayMethods.js" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.5.1"
+  "dependencies": {
+    "jest": "^28.1.0"
   }
 }
